@@ -1,0 +1,24 @@
+//git//
+git init //inicia git
+git clone [https] //clona el repositorio
+git add . //agrega todos los archivos a git
+git status //sirve para ver el estatus y si todo esta al dia
+git commit -m "[comentario]" //hace un commit
+git push origin //envia el commit al repositorio origin
+git checkout -b [branch] //crea un nuevo branch y cambia a este
+git checkout [branch] //cambia el branch
+git branch //sirve para ver los diferentes branchs y el actual
+git merge [branch] //combina o merge el branch declarado en el branch actual
+
+//go//
+go mod init [project] //crea un nuevo modulo
+go run [main] //ejecuta el codigo
+go build [main] //crea binaries
+./ [main] //ejecuta los binaries .exe
+
+
+//go packages and modules//
+para crear modulos y utilizarlos es necesario crear un nuevo modulo en lo mas alto del directorio, 
+dentro de una carpeta deben ir los packages y en otro diferente el main. Con cada package debe hacerse build 
+y luego install. Los packges se referencian con el nombre del modulo y luego las carpetas.
+ejm con el modulo Testing y el package utility: Testing/utility 
