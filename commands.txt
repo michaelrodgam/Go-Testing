@@ -9,6 +9,8 @@ git checkout -b [branch] //crea un nuevo branch y cambia a este
 git checkout [branch] //cambia el branch
 git branch //sirve para ver los diferentes branchs y el actual
 git merge [branch] //combina o merge el branch declarado en el branch actual
+git log //permite ver todos los commit
+git revert [commit] //sirve para ir regresar a algun commit, HEAD es el ultimo.
 
 //go//
 go mod init [project] //crea un nuevo modulo
