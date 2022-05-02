@@ -21,6 +21,6 @@ go build [main] //crea binaries
 
 //go packages and modules//
 para crear modulos y utilizarlos es necesario crear un nuevo modulo en lo mas alto del directorio, 
-dentro de una carpeta deben ir los packages y en otro diferente el main. Con cada package debe hacerse build 
-y luego install. Los packges se referencian con el nombre del modulo y luego las carpetas.
-ejm con el modulo Testing y el package utility: Testing/utility 
+dentro de una carpeta deben ir los packages y en otro diferente el main. Los packges se referencian con el nombre del modulo y luego las carpetas.
+ejm con el modulo Testing y el package utility: Testing/utility
+Las funciones en los packages deben ir siempre con la primera letra en mayuscula para exportarlas.
