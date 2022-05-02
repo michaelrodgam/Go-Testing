@@ -3,7 +3,8 @@
 	El archivo go.mod indica el nombre del modulo. Este modulo, al que pertenecen todos los packages,
 	se llama: Testing, por lo que para importar un package de este modulo es necesario importarlo como:
 	Testing/greeting, por ejemplo, ya que este package es greeting... tambien es como referirse a las carpetas
-	desde la ubicacion del modulo que esta en el top del directorio.
+	desde la ubicacion del modulo que esta en el top del directorio. Las funciones que se exportan deben iniciar 
+	con mayuscula como Greeting()
 */
 
 package greeting
